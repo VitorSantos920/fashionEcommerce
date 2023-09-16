@@ -1,0 +1,67 @@
+.home {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c2efd4;
+  padding: 120px 4em;
+
+  .home__content {
+    width: 45%;
+
+    &__title {
+      font-family: $rufina;
+      color: $brand;
+      font-weight: 700;
+      font-size: 4.3em;
+    }
+
+    &__description {
+      color: $secondary-brand;
+      font-weight: 500;
+      font-size: 1.2em;
+      line-height: 2em;
+      margin: 1.3em 0 2.5em 0;
+      width: 75%;
+    }
+
+    &__btn {
+      background-color: $brand;
+      color: #ffffff;
+      padding: 0.7em 3em;
+      position: relative;
+      transition: 500ms;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        transition: 500ms;
+        width: 0;
+        background-color: #c2efd4;
+      }
+
+      &:hover {
+        color: $brand;
+        z-index: 1;
+
+        &::before {
+          width: 100%;
+          z-index: -1;
+        }
+      }
+    }
+  }
+
+  div:last-child {
+    width: 35%;
+    background: url("../img/bg.png");
+    background-size: cover;
+
+    img {
+      width: 100%;
+      height: 100%;
+      vertical-align: bottom;
+    }
+  }
+}

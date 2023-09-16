@@ -1,7 +1,7 @@
 @import "./utils/variables";
 @import "./utils/classes";
 @import "./base/reset";
-@import "./layout/header";
+@import "./layout/main.scss";
 
 .btn {
   border: 2px solid $brand;
@@ -11,4 +11,9 @@
   font-size: 1.25em;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 0.2em;
+}
+
+section:not(header >) {
+  padding: 0 4em;
 }
