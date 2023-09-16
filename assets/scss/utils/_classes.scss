@@ -1,3 +1,28 @@
 .flex {
   display: flex;
 }
+
+.btn {
+  border: 2px solid $brand;
+  font-weight: 500;
+  padding: 0.3em 1.8em;
+  background-color: transparent;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+.section__title {
+  font-family: $slab;
+  color: $brand;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.section__description {
+  color: $brand;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin: 1em 0 2em;
+}

@@ -3,17 +3,6 @@
 @import "./base/reset";
 @import "./layout/main.scss";
 
-.btn {
-  border: 2px solid $brand;
-  font-weight: 500;
-  padding: 0.3em 1.8em;
-  background-color: transparent;
-  font-size: 1.25em;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 0.2em;
-}
-
 section:not(header >) {
   padding: 0 4em;
 }
