@@ -21,13 +21,16 @@
         overflow: hidden;
 
         img {
-          vertical-align: bottom;
           transition: 500ms;
 
           &:not([src="./assets/img/icons/star.svg"]) {
             width: 100%;
           }
         }
+      }
+
+      img {
+        vertical-align: bottom;
       }
 
       &:hover > figure img {
