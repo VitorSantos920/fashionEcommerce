@@ -8,15 +8,18 @@
     justify-content: center;
     gap: 1em;
 
-    img {
-      vertical-align: bottom;
-    }
-
     .best__product {
       width: 30%;
 
-      figure img {
-        width: 100%;
+      &:first-child figure {
+        background-color: #93b9a2;
+      }
+
+      &:nth-child(2) figure {
+        background-color: #a9d4ba;
+      }
+      &:last-child figure {
+        background-color: #cadcd0;
       }
 
       &__details {
