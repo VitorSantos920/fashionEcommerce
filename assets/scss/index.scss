@@ -1,8 +1,8 @@
-@import "./utils/variables";
-@import "./utils/classes";
-@import "./base/reset";
+@import "./utils/main.scss";
 @import "./layout/main.scss";
+@import "./base/reset";
 
-section:not(header >) {
-  padding: 0 4em;
+.container > section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }

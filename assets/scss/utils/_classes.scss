@@ -13,6 +13,12 @@
   border-radius: 0.2em;
 }
 
+.section-center {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section__title {
   font-family: $slab;
   color: $brand;

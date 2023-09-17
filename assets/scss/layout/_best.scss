@@ -1,9 +1,4 @@
 .best {
-  text-align: center;
-  flex-direction: column;
-  justify-self: center;
-  padding: 120px 0;
-
   &__products {
     justify-content: center;
     gap: 1em;
@@ -24,14 +19,14 @@
 
       figure {
         overflow: hidden;
-      }
 
-      img {
-        vertical-align: bottom;
-        transition: 500ms;
+        img {
+          vertical-align: bottom;
+          transition: 500ms;
 
-        &:not([src="./assets/img/icons/star.svg"]) {
-          width: 100%;
+          &:not([src="./assets/img/icons/star.svg"]) {
+            width: 100%;
+          }
         }
       }
 
@@ -57,7 +52,7 @@
     }
   }
 
-  .best__btn {
+  &__btn {
     color: $brand;
     text-transform: unset;
     margin-top: 2em;
