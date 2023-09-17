@@ -173,6 +173,15 @@ button {
         background-color: #a9d4ba; }
       .best__products .best__product:last-child figure {
         background-color: #cadcd0; }
+      .best__products .best__product figure {
+        overflow: hidden; }
+      .best__products .best__product img {
+        vertical-align: bottom;
+        transition: 500ms; }
+        .best__products .best__product img:not([src="./assets/img/icons/star.svg"]) {
+          width: 100%; }
+      .best__products .best__product:hover > figure img {
+        transform: scale(1.1); }
       .best__products .best__product__details {
         padding-top: 2em; }
         .best__products .best__product__details > div {
