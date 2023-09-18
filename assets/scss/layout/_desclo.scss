@@ -1,0 +1,21 @@
+.desclo {
+  .desclo__products {
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+
+    .product {
+      width: 30%;
+      min-width: 225px;
+
+      .desclo__product__title {
+        font-size: 1.5em;
+      }
+
+      .desclo__product__description {
+        font-weight: 500;
+        color: $dark-gray;
+      }
+    }
+  }
+}
