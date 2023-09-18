@@ -24,3 +24,7 @@ button {
   text-decoration: none;
   font-family: inherit;
 }
+
+:not(button) > img {
+  vertical-align: bottom;
+}

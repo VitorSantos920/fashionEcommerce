@@ -32,3 +32,37 @@
   font-size: 1.25em;
   margin: 1em 0 2em;
 }
+
+.product {
+  figure {
+    overflow: hidden;
+
+    img {
+      transition: 500ms;
+
+      &:not([src="./assets/img/icons/star.svg"]) {
+        width: 100%;
+      }
+    }
+  }
+
+  .product__details {
+    padding-top: 2em;
+
+    > div {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+
+      .divider {
+        width: 1px;
+        background-color: $medium-gray;
+        height: 22px;
+      }
+    }
+  }
+
+  &:hover > figure img {
+    transform: scale(1.1);
+  }
+}

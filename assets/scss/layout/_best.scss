@@ -2,9 +2,11 @@
   &__products {
     justify-content: center;
     gap: 1em;
+    flex-wrap: wrap;
 
-    .best__product {
+    .product {
       width: 30%;
+      min-width: 225px;
 
       &:first-child figure {
         background-color: #93b9a2;
@@ -15,42 +17,6 @@
       }
       &:last-child figure {
         background-color: #cadcd0;
-      }
-
-      figure {
-        overflow: hidden;
-
-        img {
-          transition: 500ms;
-
-          &:not([src="./assets/img/icons/star.svg"]) {
-            width: 100%;
-          }
-        }
-      }
-
-      img {
-        vertical-align: bottom;
-      }
-
-      &:hover > figure img {
-        transform: scale(1.1);
-      }
-
-      &__details {
-        padding-top: 2em;
-
-        > div {
-          display: flex;
-          justify-content: center;
-          gap: 1em;
-
-          .divider {
-            width: 1px;
-            background-color: $medium-gray;
-            height: 22px;
-          }
-        }
       }
     }
   }

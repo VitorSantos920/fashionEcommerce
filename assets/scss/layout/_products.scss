@@ -1,11 +1,11 @@
-.all-products {
+.all {
   &__categories {
     gap: 5em;
     font-weight: 500;
     font-size: 1.25em;
     margin: 2em 0;
 
-    .all-products__category {
+    .all__category {
       cursor: pointer;
 
       &.active {
@@ -15,13 +15,13 @@
     }
   }
 
-  &__items {
+  &__products {
     gap: 1em;
     row-gap: 4.5em;
     flex-wrap: wrap;
     justify-content: center;
 
-    .all-products__product {
+    .product {
       flex-grow: 0.1;
       width: 21.6%;
       min-width: 205px;
@@ -29,31 +29,10 @@
       figure {
         width: 100%;
         height: 80%;
-        text-align: center;
 
         img {
           width: 100%;
           height: 100%;
-        }
-      }
-
-      img {
-        vertical-align: bottom;
-      }
-
-      &__details {
-        padding-top: 2em;
-
-        > div {
-          display: flex;
-          justify-content: center;
-          gap: 1em;
-
-          .divider {
-            width: 1px;
-            background-color: $medium-gray;
-            height: 22px;
-          }
         }
       }
     }
