@@ -9,6 +9,10 @@
   transform: translateX(-50%);
   width: 100%;
   color: $brand;
+  z-index: 2;
+  filter: drop-shadow(30px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.1);
 
   &__logo {
     font-family: $rufina;
