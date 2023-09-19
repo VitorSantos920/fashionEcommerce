@@ -4,6 +4,8 @@
     font-weight: 500;
     font-size: 1.25em;
     margin: 2em 0;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .all__category {
       cursor: pointer;
