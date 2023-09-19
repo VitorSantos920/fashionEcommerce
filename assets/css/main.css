@@ -232,7 +232,7 @@
 .footer {
   background-color: #224f34;
   padding: 4em;
-  color: #fff; }
+  color: #ffffff; }
   .footer .footer__top {
     justify-content: space-between;
     align-items: baseline; }
@@ -242,14 +242,16 @@
       font-weight: 700; }
     .footer .footer__top .footer__col-1 p {
       margin: 2em 0 1em;
-      font-weight: 500; }
+      font-weight: 500;
+      font-family: "Roboto Slab", serif; }
     .footer .footer__top .footer__col-1 img {
       width: 30px; }
       .footer .footer__top .footer__col-1 img[src="./assets/img/icons/twitter.svg"] {
         margin: 0 1.5em; }
     .footer .footer__top .footer__col-title {
       text-transform: uppercase;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-family: "Roboto Slab", serif; }
     .footer .footer__top .footer__col-2 li,
     .footer .footer__top .footer__col-3 li {
       margin-bottom: 1em;

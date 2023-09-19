@@ -1,7 +1,7 @@
 .footer {
   background-color: $brand;
   padding: 4em;
-  color: #fff;
+  color: $white;
 
   .footer__top {
     justify-content: space-between;
@@ -17,6 +17,7 @@
       p {
         margin: 2em 0 1em;
         font-weight: 500;
+        font-family: $slab;
       }
 
       img {
@@ -31,6 +32,7 @@
     .footer__col-title {
       text-transform: uppercase;
       margin-bottom: 1rem;
+      font-family: $slab;
     }
 
     .footer__col-2,
