@@ -228,67 +228,81 @@
 .footer {
   background-color: #224f34;
   padding: 4em;
-  width: 100%;
-  color: #fff;
-  justify-content: space-between;
-  align-items: baseline; }
-  .footer__col-1 .footer__logo {
-    font-family: "Rufina", serif;
-    font-size: 2em;
-    font-weight: 700; }
-  .footer__col-1 p {
-    margin: 2em 0 1em;
-    font-weight: 500; }
-  .footer__col-1 img {
-    width: 30px; }
-    .footer__col-1 img[src="./assets/img/icons/twitter.svg"] {
-      margin: 0 1.5em; }
-  .footer__col-title {
-    text-transform: uppercase;
-    margin-bottom: 1rem; }
-  .footer__col-2 li, .footer__col-3 li {
-    margin-bottom: 1em;
-    color: #c2efd4; }
-    .footer__col-2 li a, .footer__col-3 li a {
-      position: relative; }
-      .footer__col-2 li a::before, .footer__col-3 li a::before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        width: 0;
-        height: 2px;
-        background-color: #c2efd4;
-        transition: 500ms;
-        transform: translate(-50%); }
-      .footer__col-2 li a:hover::before, .footer__col-3 li a:hover::before {
+  color: #fff; }
+  .footer .footer__top {
+    justify-content: space-between;
+    align-items: baseline; }
+    .footer .footer__top .footer__col-1 .footer__logo {
+      font-family: "Rufina", serif;
+      font-size: 2em;
+      font-weight: 700; }
+    .footer .footer__top .footer__col-1 p {
+      margin: 2em 0 1em;
+      font-weight: 500; }
+    .footer .footer__top .footer__col-1 img {
+      width: 30px; }
+      .footer .footer__top .footer__col-1 img[src="./assets/img/icons/twitter.svg"] {
+        margin: 0 1.5em; }
+    .footer .footer__top .footer__col-title {
+      text-transform: uppercase;
+      margin-bottom: 1rem; }
+    .footer .footer__top .footer__col-2 li,
+    .footer .footer__top .footer__col-3 li {
+      margin-bottom: 1em;
+      color: #c2efd4; }
+      .footer .footer__top .footer__col-2 li a,
+      .footer .footer__top .footer__col-3 li a {
+        position: relative; }
+        .footer .footer__top .footer__col-2 li a::before,
+        .footer .footer__top .footer__col-3 li a::before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          width: 0;
+          height: 2px;
+          background-color: #c2efd4;
+          transition: 500ms;
+          transform: translate(-50%); }
+        .footer .footer__top .footer__col-2 li a:hover::before,
+        .footer .footer__top .footer__col-3 li a:hover::before {
+          width: 100%; }
+    .footer .footer__top .footer__col-4 {
+      flex-grow: 0.4; }
+      .footer .footer__top .footer__col-4 form {
         width: 100%; }
-  .footer__col-4 {
-    flex-grow: 0.4; }
-    .footer__col-4 form {
-      width: 100%; }
-      .footer__col-4 form input {
-        padding: 1em;
-        font-family: inherit;
-        outline: none; }
-        .footer__col-4 form input[type="email"] {
-          color: inherit;
-          border: 2px solid #a3f3be;
-          background-color: transparent; }
-          .footer__col-4 form input[type="email"], .footer__col-4 form input[type="email"]::placeholder {
-            color: inherit; }
-          .footer__col-4 form input[type="email"]:focus {
-            border-color: rgba(163, 243, 190, 0.5); }
-        .footer__col-4 form input[type="submit"] {
-          background-color: #a3f3be;
-          color: #224f34;
-          border: none;
-          font-size: 1em;
-          text-transform: uppercase;
-          font-weight: 500;
-          cursor: pointer; }
-          .footer__col-4 form input[type="submit"]:hover {
-            background-color: rgba(163, 243, 190, 0.5); }
+        .footer .footer__top .footer__col-4 form input {
+          padding: 1em;
+          font-family: inherit;
+          outline: none; }
+          .footer .footer__top .footer__col-4 form input[type="email"] {
+            color: inherit;
+            border: 2px solid #a3f3be;
+            background-color: transparent; }
+            .footer .footer__top .footer__col-4 form input[type="email"], .footer .footer__top .footer__col-4 form input[type="email"]::placeholder {
+              color: inherit; }
+            .footer .footer__top .footer__col-4 form input[type="email"]:focus {
+              border-color: rgba(163, 243, 190, 0.5); }
+          .footer .footer__top .footer__col-4 form input[type="submit"] {
+            background-color: #a3f3be;
+            color: #224f34;
+            border: none;
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: 500;
+            cursor: pointer; }
+            .footer .footer__top .footer__col-4 form input[type="submit"]:hover {
+              background-color: rgba(163, 243, 190, 0.5); }
+  .footer .footer__bottom {
+    align-items: center;
+    gap: 1em;
+    margin-top: 5em; }
+    .footer .footer__bottom .line {
+      flex-grow: 1;
+      background-color: #a3f3be;
+      height: 0.1em; }
+    .footer .footer__bottom ul {
+      gap: 1em; }
 
 * {
   margin: 0;
